@@ -1,0 +1,69 @@
+{
+    "keyMetrics": {
+      "TotalUsers": 1000,
+      "ActiveUsers": 800,
+      "TotalStreams": 50000,
+      "Revenue": 100000,
+      "TopArtist": "Artist Name"
+    },
+    "chartsData": {
+      "userGrowth": {
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        "datasets": [
+          {
+            "label": "Total Users",
+            "data": [100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650],
+            "borderColor": "rgb(75, 192, 192)",
+            "backgroundColor": "rgba(75, 192, 192, 0.2)"
+          },
+          {
+            "label": "Active Users",
+            "data": [80, 120, 160, 200, 240, 280, 320, 360, 400, 440, 480, 520],
+            "borderColor": "rgb(255, 99, 132)",
+            "backgroundColor": "rgba(255, 99, 132, 0.2)"
+          }
+        ]
+      },
+      "revenueDistribution": {
+        "labels": ["Subscriptions", "Ads"],
+        "datasets": [
+          {
+            "data": [70000, 30000],
+            "backgroundColor": ["#ff6384", "#36a2eb"],
+            "borderColor": "#fff",
+            "borderWidth": 1
+          }
+        ]
+      },
+      "topSongs": {
+        "labels": ["Song 1", "Song 2", "Song 3", "Song 4", "Song 5"],
+        "datasets": [
+          {
+            "label": "Top 5 Streamed Songs",
+            "data": [5000, 4000, 3000, 2000, 1000],
+            "backgroundColor": "rgba(75, 192, 192, 0.2)",
+            "borderColor": "rgba(75, 192, 192, 1)",
+            "borderWidth": 1
+          }
+        ]
+      }
+    },
+    "recentStreams": [
+      {
+        "songName": "Song 1",
+        "artist": "Artist 1",
+        "dateStreamed": "2024-09-01",
+        "streamCount": 1000,
+        "userId": "user1"
+      },
+      {
+        "songName": "Song 2",
+        "artist": "Artist 2",
+        "dateStreamed": "2024-09-02",
+        "streamCount": 800,
+        "userId": "user2"
+      }
+    
+    ]
+  }
+  
