@@ -1,4 +1,3 @@
-Here is a typical `README.md` file for your Streamify analytics dashboard project. It includes setup, usage, features, technologies, and deployment instructions.
 
 ```markdown
 # Streamify Dashboard
